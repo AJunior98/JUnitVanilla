@@ -14,6 +14,26 @@ E dois metodos:
 - entry: entrada do financiamento, igual a 20% do valor total.
 - quota: prestação mensal do financiamento (sem juros).
 
+# Teste realizados
+## Construtor
+- Deve criar o objeto com os dados corretos quando os dados forem válidos
+- Deve lançar IllegalArgumentException quando os dados não forem válidos
+## setTotalAmount
+- Deve atualizar o valor quando os dados forem válidos
+- Deve lançar IllegalArgumentException quando os dados não forem válidos
+## setIncome
+- Deve atualizar o valor quando os dados forem válidos
+- Deve lançar IllegalArgumentException quando os dados não forem válidos
+## setMonths
+- Deve atualizar o valor quando os dados forem válidos
+- Deve lançar IllegalArgumentException quando os dados não forem válidos
+## entry
+- Deve calcular corretamente o valor da entrada
+## quota
+- Deve calcular corretamente o valor da prestação
 
+Abaixo imagem com todos os 10 testes funcionando:
+
+![image](https://user-images.githubusercontent.com/100853329/174100001-c601b070-0a73-49fd-9e9a-aca79244088b.png)
 
 
